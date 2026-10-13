@@ -1,0 +1,206 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 40px;
+background: white;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+position: sticky;
+top: 0;
+}
+
+.logo {
+color: #007bff;
+}
+
+.nav-links {
+display: flex;
+list-style: none;
+gap: 25px;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+.btn-login {
+padding: 8px 18px;
+background: #007bff;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.btn-login:hover {
+background: #0056b3;
+}
+
+/* Hero */
+
+.hero {
+height: 90vh;
+background: linear-gradient(
+rgba(0,0,0,0.5),
+rgba(0,0,0,0.5)
+),
+url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05");
+
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: white;
+padding: 20px;
+}
+
+.hero h1 {
+font-size: 48px;
+margin-bottom: 15px;
+}
+
+.hero p {
+font-size: 18px;
+margin-bottom: 25px;
+}
+
+/* Search Box */
+
+.search-box {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+justify-content: center;
+background: white;
+padding: 15px;
+border-radius: 10px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.search-box input,
+.search-box select {
+padding: 10px;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+.search-btn {
+background: #007bff;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.search-btn:hover {
+background: #0056b3;
+}
+
+/* Features */
+
+.features {
+display: flex;
+justify-content: center;
+gap: 25px;
+padding: 60px 20px;
+background: #f5f7fa;
+flex-wrap: wrap;
+}
+
+.feature-box {
+background: white;
+padding: 25px;
+border-radius: 10px;
+width: 260px;
+text-align: center;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.feature-box:hover {
+transform: translateY(-8px);
+}
+
+/* Routes */
+
+.routes {
+padding: 60px 20px;
+text-align: center;
+}
+
+.routes h2 {
+margin-bottom: 30px;
+}
+
+.route-cards {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.card {
+background: white;
+padding: 25px;
+border-radius: 10px;
+width: 250px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card button {
+margin-top: 10px;
+padding: 8px 15px;
+background: #007bff;
+border: none;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.card button:hover {
+background: #0056b3;
+}
+
+
+footer {
+background: #222;
+color: white;
+padding: 40px 20px;
+margin-top: 40px;
+}
+
+.footer-content {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.footer-content h4 {
+margin-bottom: 10px;
+}
+
+.copyright {
+text-align: center;
+margin-top: 20px;
+font-size: 14px;
+}
